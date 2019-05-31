@@ -27,6 +27,30 @@
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
+                <li class="nav-item dropdown hidden-xs hidden-sm" id="li_language">
+					<a class="nav-link smooth-scroll dropdown-toggle count-info page-scroll" data-toggle="dropdown" href="#" title="Idioma">
+						<!--<img src="images/language.png">-->
+						<span class="label label-warning" id="span_num_respuestas">Language</span>
+					</a>
+					<ul class="dropdown-menu" style="background-color: #378c3f !important;">
+						<li>
+							<a class="nav-link smooth-scroll" href="index.php?lang=en">
+								<div>
+									Inglés
+								</div>
+							</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a class="nav-link smooth-scroll" href="index.php?lang=es">
+								<div>
+									Español
+								</div>
+							</a>
+						</li>
+						<li class="divider"></li>
+					</ul>
+				</li>
               </ul>
             </div>
           </div>
@@ -60,14 +84,14 @@
       <div class="row">
         <div class="col-lg-6 col-md-12">
           <div class="card-body">
-            <div class="h4 mt-0 title">About</div>
+            <div class="h4 mt-0 title"><?php echo $config['titles']['about']; ?></div>
             <p>Hello! I am José Solorzano. Web Developer Full Stack.</p>
             <p>Web Developer with main experience in LAMP technologies (LAMP Stack Developer). Whenever possible, I prefer the learning of developing software in an artisanal way than the use of bookstores as the first option. A fan to the installation and testing of Linux Distributions. <a href="https://www.linkedin.com/in/jose-solorzano-4307b372/" target="_blank">Learn More</a></p>
           </div>
         </div>
         <div class="col-lg-6 col-md-12">
           <div class="card-body">
-            <div class="h4 mt-0 title">Basic Information</div>
+            <div class="h4 mt-0 title"><?php echo $config['titles']['basic_information']; ?></div>
             <div class="row">
               <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
               <div class="col-sm-8">30</div>
@@ -96,7 +120,7 @@
 </div>
 <div class="section" id="skill">
   <div class="container">
-    <div class="h4 text-center mb-4 title">Professional Skills</div>
+    <div class="h4 text-center mb-4 title"><?php echo $config['titles']['professional_skills']; ?></div>
     <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div class="card-body">
         <div class="row">
@@ -155,7 +179,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 ml-auto mr-auto">
-        <div class="h4 text-center mb-4 title">Portfolio</div>
+        <div class="h4 text-center mb-4 title"><?php echo $config['titles']['portfolio']; ?></div>
         <div class="nav-align-center">
           <ul class="nav nav-pills nav-pills-primary" role="tablist">
             <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#web-development" role="tablist"><i class="fa fa-laptop" aria-hidden="true"></i></a></li>
@@ -285,7 +309,7 @@
 </div>
 <div class="section" id="experience">
   <div class="container cc-experience">
-    <div class="h4 text-center mb-4 title">Work Experience</div>
+    <div class="h4 text-center mb-4 title"><?php echo $config['titles']['work_experience']; ?></div>
     <div class="card">
       <div class="row">
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
@@ -338,7 +362,7 @@
 </div>
 <div class="section">
   <div class="container cc-education">
-    <div class="h4 text-center mb-4 title">Education</div>
+    <div class="h4 text-center mb-4 title"><?php echo $config['titles']['education']; ?></div>
     <div class="card">
       <div class="row">
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
@@ -394,7 +418,7 @@
 </div>
 <div class="section" id="reference">
   <div class="container cc-reference">
-    <div class="h4 mb-4 text-center title">References</div>
+    <div class="h4 mb-4 text-center title"><?php echo $config['titles']['references']; ?></div>
     <div class="card" data-aos="zoom-in">
       <div class="carousel slide" id="cc-Indicators" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -448,7 +472,7 @@
         <div class="row">
           <div class="col-md-9">
             <div class="card mb-0" data-aos="zoom-in">
-              <div class="h4 text-center title">Contact Me</div>
+              <div class="h4 text-center title"><?php echo $config['titles']['contact']; ?></div>
               <div class="row">
                 <div class="col-md-6">
                   <div class="card-body">
