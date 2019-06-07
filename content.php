@@ -22,35 +22,30 @@
             </div>
             <div class="collapse navbar-collapse justify-content-end" id="navigation">
               <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
-                <li class="nav-item dropdown hidden-xs hidden-sm" id="li_language">
-					<a class="nav-link smooth-scroll dropdown-toggle count-info page-scroll" data-toggle="dropdown" href="#" title="Idioma">
-						<!--<img src="images/language.png">-->
-						<span class="label label-warning" id="span_num_respuestas">Language</span>
-					</a>
-					<ul class="dropdown-menu" style="background-color: #378c3f !important;">
-						<li>
-							<a class="nav-link smooth-scroll" href="index.php?lang=en">
-								<div>
-									Inglés
-								</div>
+				<?php foreach($config['menu'] as $key_m => $menu){?>
+					<?php if($key_m != 'language'){ ?>
+						<li class="nav-item"><a class="nav-link smooth-scroll" href="#about"><?php echo $menu; ?></a></li>
+					<?php }else{ ?>
+						<li class="nav-item dropdown hidden-xs hidden-sm" id="li_language">
+							<a class="nav-link smooth-scroll dropdown-toggle count-info page-scroll" data-toggle="dropdown" href="#" title="Idioma">
+								<!--<img src="images/language.png">-->
+								<span class="label label-warning" id="span_num_respuestas"><?php echo $menu; ?></span>
 							</a>
+							<ul class="dropdown-menu" style="background-color: #378c3f !important;">
+								<?php foreach($config['language'] as $key_l => $language){?>
+								<li>
+									<a class="nav-link smooth-scroll" href="index.php?lang=<?php echo $key_l; ?>">
+										<div>
+											<?php echo $language; ?>
+										</div>
+									</a>
+								</li>
+								<li class="divider"></li>
+								<?php } ?>
+							</ul>
 						</li>
-						<li class="divider"></li>
-						<li>
-							<a class="nav-link smooth-scroll" href="index.php?lang=es">
-								<div>
-									Español
-								</div>
-							</a>
-						</li>
-						<li class="divider"></li>
-					</ul>
-				</li>
+					<?php } ?>
+				<?php } ?>
               </ul>
             </div>
           </div>
@@ -67,7 +62,7 @@
         <div class="content-center">
           <div class="cc-profile-image"><a href="#"><img src="images/yo.jpeg" alt="Image"/></a></div>
           <div class="h2 title">José Solorzano</div>
-          <p class="category text-white">Web Developer</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
+          <p class="category text-white"><?php echo $config['basic']['title']; ?></p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
         </div>
       </div>
       <div class="section">
@@ -85,31 +80,31 @@
         <div class="col-lg-6 col-md-12">
           <div class="card-body">
             <div class="h4 mt-0 title"><?php echo $config['titles']['about']; ?></div>
-            <p>Hello! I am José Solorzano. Web Developer Full Stack.</p>
-            <p>Web Developer with main experience in LAMP technologies (LAMP Stack Developer). Whenever possible, I prefer the learning of developing software in an artisanal way than the use of bookstores as the first option. A fan to the installation and testing of Linux Distributions. <a href="https://www.linkedin.com/in/jose-solorzano-4307b372/" target="_blank">Learn More</a></p>
+            <p><?php echo $config['basic']['about_name']; ?></p>
+            <p><?php echo $config['basic']['about_details']; ?><a href="https://www.linkedin.com/in/jose-solorzano-4307b372/" target="_blank">Learn More</a></p>
           </div>
         </div>
         <div class="col-lg-6 col-md-12">
           <div class="card-body">
             <div class="h4 mt-0 title"><?php echo $config['titles']['basic_information']; ?></div>
             <div class="row">
-              <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
+              <div class="col-sm-4"><strong class="text-uppercase"><?php echo $config['basic']['age']; ?>:</strong></div>
               <div class="col-sm-8">30</div>
             </div>
             <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
+              <div class="col-sm-4"><strong class="text-uppercase"><?php echo $config['basic']['email']; ?>:</strong></div>
               <div class="col-sm-8">solorzano202009@gmail.com</div>
             </div>
             <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
+              <div class="col-sm-4"><strong class="text-uppercase"><?php echo $config['basic']['phone']; ?>:</strong></div>
               <div class="col-sm-8">+58-414-0474741</div>
             </div>
             <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
+              <div class="col-sm-4"><strong class="text-uppercase"><?php echo $config['basic']['address']; ?>:</strong></div>
               <div class="col-sm-8">Maracay, Venezuela</div>
             </div>
             <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
+              <div class="col-sm-4"><strong class="text-uppercase"><?php echo $config['basic']['language']; ?>:</strong></div>
               <div class="col-sm-8">Spanish, English</div>
             </div>
           </div>
