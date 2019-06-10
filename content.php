@@ -24,7 +24,7 @@
               <ul class="navbar-nav">
 				<?php foreach($config['menu'] as $key_m => $menu){?>
 					<?php if($key_m != 'language'){ ?>
-						<li class="nav-item"><a class="nav-link smooth-scroll" href="#about"><?php echo $menu; ?></a></li>
+						<li class="nav-item"><a class="nav-link smooth-scroll" href="#<?php echo $key_m; ?>"><?php echo $menu; ?></a></li>
 					<?php }else{ ?>
 						<li class="nav-item dropdown hidden-xs hidden-sm" id="li_language">
 							<a class="nav-link smooth-scroll dropdown-toggle count-info page-scroll" data-toggle="dropdown" href="#" title="Idioma">
@@ -472,38 +472,38 @@
                 <div class="col-md-6">
                   <div class="card-body">
                     <form action="https://formspree.io/your@email.com" method="POST">
-                      <div class="p pb-3"><strong>Feel free to contact me </strong></div>
+                      <div class="p pb-3"><strong><?php echo $config['contact']['subtitle']; ?> </strong></div>
                       <div class="row mb-3">
                         <div class="col">
                           <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
-                            <input class="form-control" type="text" name="name" placeholder="Name" required="required"/>
+                            <input class="form-control" type="text" name="name" placeholder="<?php echo $config['contact']['your_name']; ?>" required="required"/>
                           </div>
                         </div>
                       </div>
                       <div class="row mb-3">
                         <div class="col">
                           <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
-                            <input class="form-control" type="text" name="Subject" placeholder="Subject" required="required"/>
+                            <input class="form-control" type="text" name="Subject" placeholder="<?php echo $config['contact']['your_subject']; ?>" required="required"/>
                           </div>
                         </div>
                       </div>
                       <div class="row mb-3">
                         <div class="col">
                           <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                            <input class="form-control" type="email" name="_replyto" placeholder="E-mail" required="required"/>
+                            <input class="form-control" type="email" name="_replyto" placeholder="<?php echo $config['contact']['your_email']; ?>" required="required"/>
                           </div>
                         </div>
                       </div>
                       <div class="row mb-3">
                         <div class="col">
                           <div class="form-group">
-                            <textarea class="form-control" name="message" placeholder="Your Message" required="required"></textarea>
+                            <textarea class="form-control" name="message" placeholder="<?php echo $config['contact']['your_message']; ?>" required="required"></textarea>
                           </div>
                         </div>
                       </div>
                       <div class="row">
                         <div class="col">
-                          <button class="btn btn-primary" type="submit">Send</button>
+                          <button class="btn btn-primary" type="submit"><?php echo $config['contact']['send']; ?></button>
                         </div>
                       </div>
                     </form>
@@ -511,11 +511,11 @@
                 </div>
                 <div class="col-md-6">
                   <div class="card-body">
-                    <p class="mb-0"><strong>Address </strong></p>
+                    <p class="mb-0"><strong><?php echo $config['contact']['my_address']; ?> </strong></p>
                     <p class="pb-2">Maracay, Venezuela</p>
-                    <p class="mb-0"><strong>Phone</strong></p>
+                    <p class="mb-0"><strong><?php echo $config['contact']['my_phone']; ?></strong></p>
                     <p class="pb-2">+58-414-0474741</p>
-                    <p class="mb-0"><strong>Email</strong></p>
+                    <p class="mb-0"><strong><?php echo $config['contact']['my_email']; ?></strong></p>
                     <p>solorzano202009@gmail.com</p>
                   </div>
                 </div>
