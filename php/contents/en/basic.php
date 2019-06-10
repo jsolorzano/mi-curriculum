@@ -4,6 +4,10 @@
 
 $config['basic']['title'] = "WEB DEVELOPER";
 
+$config['basic']['hire_me'] = "Hire Me";
+
+$config['basic']['download'] = "Download CV";
+
 $config['basic']['about_name'] = "Hello! I am José Solorzano. Web Developer Full Stack.";
 
 $config['basic']['about_details'] = "Web Developer with main experience in LAMP technologies (LAMP Stack Developer). Whenever possible, I prefer the learning of developing software in an artisanal way than the use of bookstores as the first option. A fan to the installation and testing of Linux Distributions.";
