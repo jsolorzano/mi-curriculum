@@ -4,7 +4,7 @@
 
 $config['menu']['about'] = "ABOUT";
 
-$config['menu']['skills'] = "SKILLS";
+$config['menu']['skill'] = "SKILLS";
 
 $config['menu']['portfolio'] = "PORTFOLIO";
 
