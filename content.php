@@ -62,12 +62,12 @@
         <div class="content-center">
           <div class="cc-profile-image"><a href="#"><img src="images/yo.jpeg" alt="Image"/></a></div>
           <div class="h2 title">José Solorzano</div>
-          <p class="category text-white"><?php echo $config['basic']['title']; ?></p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
+          <p class="category text-white"><?php echo $config['basic']['title']; ?></p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor"><?php echo $config['basic']['hire_me']; ?></a><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor"><?php echo $config['basic']['download']; ?></a>
         </div>
       </div>
       <div class="section">
         <div class="container">
-          <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.facebook.com/jose.solorzano.9849" rel="tooltip" title="Follow me on Facebook"><i class="fa fa-facebook"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" href="https://twitter.com/jsolorzano18" rel="tooltip" title="Follow me on Twitter"><i class="fa fa-twitter"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/jose-solorzano-4307b372/" rel="tooltip" title="Follow me on LinkedIn"><i class="fa fa-linkedin"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/jsolorzano" rel="tooltip" title="Follow me on GitHub"><i class="fa fa-github"></i></a></div>
+          <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.facebook.com/jose.solorzano.9849" rel="tooltip" title="<?php echo $config['icons']['home_facebook']; ?>"><i class="fa fa-facebook"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" href="https://twitter.com/jsolorzano18" rel="tooltip" title="<?php echo $config['icons']['home_twitter']; ?>"><i class="fa fa-twitter"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/jose-solorzano-4307b372/" rel="tooltip" title="<?php echo $config['icons']['home_linkedin']; ?>"><i class="fa fa-linkedin"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/jsolorzano" rel="tooltip" title="<?php echo $config['icons']['home_github']; ?>"><i class="fa fa-github"></i></a></div>
         </div>
       </div>
     </div>
