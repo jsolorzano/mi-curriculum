@@ -11,6 +11,7 @@
     <link href="css/aos.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/alternative.css" rel="stylesheet">
   </head>
   <body id="top">
     <header>
@@ -31,12 +32,12 @@
 								<!--<img src="images/language.png">-->
 								<span class="label label-warning" id="span_num_respuestas"><?php echo $menu; ?></span>
 							</a>
-							<ul class="dropdown-menu" style="background-color: #378c3f !important;">
+							<ul class="dropdown-menu" style="background-color: #377ba8 !important;">
 								<?php foreach($config['language'] as $key_l => $language){?>
 								<li>
 									<a class="nav-link smooth-scroll" href="index.php?lang=<?php echo $key_l; ?>">
 										<div>
-											<?php echo $language; ?>
+											<b><?php echo $language; ?></b>
 										</div>
 									</a>
 								</li>
