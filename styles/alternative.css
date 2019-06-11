@@ -1,0 +1,45 @@
+.bg-primary {
+	background-color: #24292e !important;
+}
+
+.progress-container.progress-primary .progress-value, .progress-container.progress-primary .progress-badge {
+    color: #24292e;
+}
+
+.progress-container.progress-primary .progress-bar {
+    background: #377ba8;
+}
+
+.nav-pills.nav-pills-primary .nav-item .nav-link.active, .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus, .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover {
+    background-color: #377ba8;
+}
+
+.btn-primary {
+    background-color: #377ba8;
+    color: #FFFFFF;
+}
+
+.btn-primary:hover {
+    background-color: #acb4cd;
+    color: #FFFFFF;
+}
+
+.cc-reference .carousel-indicators .active {
+    background-color: #377ba8;
+}
+
+.cc-profile-image a:before {
+  content: "";
+  border: 15px solid rgba(55, 123, 168, 0.6);
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  position: absolute;
+  left: 0;
+  -webkit-animation: pulsate 1.6s ease-out;
+          animation: pulsate 1.6s ease-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  opacity: 0.0;
+  z-index: 99;
+}
