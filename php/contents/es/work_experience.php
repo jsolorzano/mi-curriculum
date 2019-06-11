@@ -20,7 +20,7 @@ $config['experience']['programmer'] = array(
 	'year' => 'MARZO 2012 - ABRIL 2017',
 	'company' => 'Bibliotecas Virtuales de Aragua C.A.',
 	'title' => 'Analista programador',
-	'commentary' => 'Desarrollar soluciones técnológias usando tecnologías bajo entornos Web y Desktop.'
+	'commentary' => 'Desarrollar soluciones tecnológicas usando tecnologías bajo entornos Web y Desktop.'
 );
 
 ?>
