@@ -42,6 +42,7 @@ if(isset($_GET['lang'])){
 	
 }
 
+include "php/contents/config.php";
 include "content.php";
 
 ?>
