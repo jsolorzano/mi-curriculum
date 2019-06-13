@@ -1,5 +1,5 @@
 <ul class="navbar-nav">
-<?php foreach($config['menu'] as $key_m => $menu){?>
+<?php foreach($lang['menu'] as $key_m => $menu){?>
 	<?php if($key_m != 'language'){ ?>
 		<li class="nav-item"><a class="nav-link smooth-scroll" href="#<?php echo $key_m; ?>"><?php echo $menu; ?></a></li>
 	<?php }else{ ?>
@@ -9,7 +9,7 @@
 				<span class="label label-warning" id="span_num_respuestas"><?php echo $menu; ?></span>
 			</a>
 			<ul class="dropdown-menu" style="background-color: #377ba8 !important;">
-				<?php foreach($config['language'] as $key_l => $language){?>
+				<?php foreach($lang['language'] as $key_l => $language){?>
 				<li>
 					<a class="nav-link smooth-scroll" href="index.php?lang=<?php echo $key_l; ?>">
 						<div>

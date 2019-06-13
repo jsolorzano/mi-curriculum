@@ -2,24 +2,24 @@
 
 // Textos de datos básicos de la página principal
 
-$config['basic']['title'] = "WEB DEVELOPER";
+$lang['basic']['title'] = "WEB DEVELOPER";
 
-$config['basic']['hire_me'] = "Hire Me";
+$lang['basic']['hire_me'] = "Hire Me";
 
-$config['basic']['download'] = "Download CV";
+$lang['basic']['download'] = "Download CV";
 
-$config['basic']['about_name'] = "Hello! I am José Solorzano. Web Developer Full Stack.";
+$lang['basic']['about_name'] = "Hello! I am José Solorzano. Web Developer Full Stack.";
 
-$config['basic']['about_details'] = "Web Developer with main experience in LAMP technologies (LAMP Stack Developer). Whenever possible, I prefer the learning of developing software in an artisanal way than the use of bookstores as the first option. A fan to the installation and testing of Linux Distributions.";
+$lang['basic']['about_details'] = "Web Developer with main experience in LAMP technologies (LAMP Stack Developer). Whenever possible, I prefer the learning of developing software in an artisanal way than the use of bookstores as the first option. A fan to the installation and testing of Linux Distributions.";
 
-$config['basic']['age'] = "AGE";
+$lang['basic']['age'] = "AGE";
 
-$config['basic']['email'] = "EMAIL";
+$lang['basic']['email'] = "EMAIL";
 
-$config['basic']['phone'] = "PHONE";
+$lang['basic']['phone'] = "PHONE";
 
-$config['basic']['address'] = "ADDRESS";
+$lang['basic']['address'] = "ADDRESS";
 
-$config['basic']['language'] = "LANGUAGE";
+$lang['basic']['language'] = "LANGUAGE";
 
 ?>

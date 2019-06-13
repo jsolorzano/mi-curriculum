@@ -2,21 +2,21 @@
 
 // Textos de experiencias laborales de la página principal
 
-$config['experience']['web_developer_free'] = array(
+$lang['experience']['web_developer_free'] = array(
 	'year' => 'ABRIL 2018 - PRESENTE',
 	'company' => 'Freelance',
 	'title' => 'Desarrollador Web',
 	'commentary' => 'Desarrollar soluciones técnológias usando tecnologías bajo entornos Web.'
 );
 
-$config['experience']['web_developer'] = array(
+$lang['experience']['web_developer'] = array(
 	'year' => 'ABRIL 2017 - PRESENTE',
 	'company' => 'Desarrollos Imago',
 	'title' => 'Desarrollador Web',
 	'commentary' => 'Desarrollar soluciones técnológias usando tecnologías bajo entornos Web.'
 );
 
-$config['experience']['programmer'] = array(
+$lang['experience']['programmer'] = array(
 	'year' => 'MARZO 2012 - ABRIL 2017',
 	'company' => 'Bibliotecas Virtuales de Aragua C.A.',
 	'title' => 'Analista programador',

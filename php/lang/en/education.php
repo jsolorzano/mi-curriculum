@@ -2,7 +2,7 @@
 
 // Textos de educación de la página principal
 
-$config['education']['engineering_degree'] = array(
+$lang['education']['engineering_degree'] = array(
 	'year' => '2010 - 2013',
 	'level' => 'Engineering\'s Degree',
 	'title' => 'Systems Engineer',
@@ -10,7 +10,7 @@ $config['education']['engineering_degree'] = array(
 	'commentary' => 'University degree in engineering that allows studying and understanding reality, with the purpose of implementing or optimizing complex systems. Its field of study any existing system, not just those associated with computer systems.'
 );
 
-$config['education']['bachelor_degree'] = array(
+$lang['education']['bachelor_degree'] = array(
 	'year' => '2007 - 2010',
 	'level' => 'Senior University Technician',
 	'title' => 'Higher University Technician in Computer Science',
@@ -18,7 +18,7 @@ $config['education']['bachelor_degree'] = array(
 	'commentary' => 'Technical university degree whose preparation focuses on providing technological solutions to organizational problems oriented to work with microcomputers, covering both areas of network infrastructure and software development.'
 );
 
-$config['education']['high_school'] = array(
+$lang['education']['high_school'] = array(
 	'year' => '2003 - 2005',
 	'level' => 'High School',
 	'title' => 'Bachelor of Science',
