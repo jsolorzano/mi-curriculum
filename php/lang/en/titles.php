@@ -2,19 +2,19 @@
 
 // Textos de títulos de la página principal
 
-$config['titles']['about'] = "About";
-$config['titles']['basic_information'] = "Basic Information";
+$lang['titles']['about'] = "About";
+$lang['titles']['basic_information'] = "Basic Information";
 
-$config['titles']['professional_skills'] = "Professional Skills";
+$lang['titles']['professional_skills'] = "Professional Skills";
 
-$config['titles']['portfolio'] = "Portfolio";
+$lang['titles']['portfolio'] = "Portfolio";
 
-$config['titles']['work_experience'] = "Work Experience";
+$lang['titles']['work_experience'] = "Work Experience";
 
-$config['titles']['education'] = "Education";
+$lang['titles']['education'] = "Education";
 
-$config['titles']['references'] = "References";
+$lang['titles']['references'] = "References";
 
-$config['titles']['contact'] = "Contact Me";
+$lang['titles']['contact'] = "Contact Me";
 
 ?>

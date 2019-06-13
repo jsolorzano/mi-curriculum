@@ -2,7 +2,7 @@
 
 // Textos de educación de la página principal
 
-$config['education']['engineering_degree'] = array(
+$lang['education']['engineering_degree'] = array(
 	'year' => '2010 - 2013',
 	'level' => 'Ingeniería',
 	'title' => 'Ingeniero de Sistemas',
@@ -10,7 +10,7 @@ $config['education']['engineering_degree'] = array(
 	'commentary' => 'Grado universitario de ingeniería que permite estudiar y comprender la realidad, con el propósito de implementar u optimizar sistemas complejos. Tiene como campo de estudio cualquier sistema existente, no sólamente aquellos asociados a los sistemas informáticos.'
 );
 
-$config['education']['bachelor_degree'] = array(
+$lang['education']['bachelor_degree'] = array(
 	'year' => '2007 - 2010',
 	'level' => 'Técnico Superior Universitario',
 	'title' => 'Técnico Superior Universitario en Informática',
@@ -18,7 +18,7 @@ $config['education']['bachelor_degree'] = array(
 	'commentary' => 'Grado técnico universitario cuya preparación se enfoca en dar soluciones tecnológicas a problemas organizacionales orientados al trabajo con microcomputadoras, abarcando tanto áreas de infraestructura de redes como desarrollo de software.'
 );
 
-$config['education']['high_school'] = array(
+$lang['education']['high_school'] = array(
 	'year' => '2003 - 2005',
 	'level' => 'Bachillerato',
 	'title' => 'Bachiller en Ciencias',

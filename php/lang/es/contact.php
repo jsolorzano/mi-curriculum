@@ -2,22 +2,22 @@
 
 // Textos de datos de contacto de la página principal
 
-$config['contact']['subtitle'] = "No dude en ponerse en contacto conmigo";
+$lang['contact']['subtitle'] = "No dude en ponerse en contacto conmigo";
 
-$config['contact']['your_name'] = "Nombre";
+$lang['contact']['your_name'] = "Nombre";
 
-$config['contact']['your_subject'] = "Asunto";
+$lang['contact']['your_subject'] = "Asunto";
 
-$config['contact']['your_email'] = "Correo";
+$lang['contact']['your_email'] = "Correo";
 
-$config['contact']['your_message'] = "Su mensaje";
+$lang['contact']['your_message'] = "Su mensaje";
 
-$config['contact']['my_address'] = "Dirección";
+$lang['contact']['my_address'] = "Dirección";
 
-$config['contact']['my_phone'] = "Teléfono";
+$lang['contact']['my_phone'] = "Teléfono";
 
-$config['contact']['my_email'] = "Correo";
+$lang['contact']['my_email'] = "Correo";
 
-$config['contact']['send'] = "Enviar";
+$lang['contact']['send'] = "Enviar";
 
 ?>

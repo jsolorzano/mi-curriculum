@@ -2,8 +2,8 @@
 
 // Textos de datos de idioma de la página principal
 
-$config['language']['en'] = "INGLÉS";
+$lang['language']['en'] = "INGLÉS";
 
-$config['language']['es'] = "ESPAÑOL";
+$lang['language']['es'] = "ESPAÑOL";
 
 ?>
