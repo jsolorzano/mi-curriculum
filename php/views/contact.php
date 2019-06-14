@@ -8,40 +8,40 @@
               <div class="h4 text-center title"><?php echo $lang['titles']['contact']; ?></div>
               <div class="row">
                 <div class="col-md-6">
-                  <div class="card-body">
-                    <form action="https://formspree.io/your@email.com" method="POST">
+                  <div class="card-body" id="contactWrapper">
+                    <form id="contactform" method="POST">
                       <div class="p pb-3"><strong><?php echo $lang['contact']['subtitle']; ?> </strong></div>
                       <div class="row mb-3">
                         <div class="col">
                           <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
-                            <input class="form-control" type="text" name="name" placeholder="<?php echo $lang['contact']['your_name']; ?>" required="required"/>
+                            <input class="form-control" type="text" name="name" id="name" placeholder="<?php echo $lang['contact']['your_name']; ?>" required="required"/>
                           </div>
                         </div>
                       </div>
                       <div class="row mb-3">
                         <div class="col">
                           <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
-                            <input class="form-control" type="text" name="Subject" placeholder="<?php echo $lang['contact']['your_subject']; ?>" required="required"/>
+                            <input class="form-control" type="text" name="subject" id="subject" placeholder="<?php echo $lang['contact']['your_subject']; ?>" required="required"/>
                           </div>
                         </div>
                       </div>
                       <div class="row mb-3">
                         <div class="col">
                           <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                            <input class="form-control" type="email" name="_replyto" placeholder="<?php echo $lang['contact']['your_email']; ?>" required="required"/>
+                            <input class="form-control" type="email" name="email" id="email" placeholder="<?php echo $lang['contact']['your_email']; ?>" required="required"/>
                           </div>
                         </div>
                       </div>
                       <div class="row mb-3">
                         <div class="col">
                           <div class="form-group">
-                            <textarea class="form-control" name="message" placeholder="<?php echo $lang['contact']['your_message']; ?>" required="required"></textarea>
+                            <textarea class="form-control" name="message" id="message" placeholder="<?php echo $lang['contact']['your_message']; ?>" required="required"></textarea>
                           </div>
                         </div>
                       </div>
                       <div class="row">
                         <div class="col">
-                          <button class="btn btn-primary" type="submit"><?php echo $lang['contact']['send']; ?></button>
+                          <button class="btn btn-primary" type="button" id="submit" onClick="return check_values();"><?php echo $lang['contact']['send']; ?></button>
                         </div>
                       </div>
                     </form>
