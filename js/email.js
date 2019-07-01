@@ -1,5 +1,5 @@
 
-var $j = jQuery.noConflict();
+//~ var $j = jQuery.noConflict();
 
 var http = createRequestObject();
 var areal = Math.random() + "";
@@ -70,80 +70,80 @@ function check_values() {
 	var valid = '';
 
 	
-	var $j = jQuery.noConflict();
+	//~ var $j = jQuery.noConflict();
 	
 	var name = '';
 	var email = '';
 	var subject = '';
 	var message = '';
 	
-	if(typeof $j('#contactform #name').val() != "undefined" )
+	if(typeof $('#contactform #name').val() != "undefined" )
 	{
 	 name = document.getElementById("name").value;
 	}
-	if(typeof $j('#contactform #email').val() != "undefined" )
+	if(typeof $('#contactform #email').val() != "undefined" )
 	{
 	 email = document.getElementById("email").value;
 	}
-	if(typeof $j('#contactform #subject').val() != "undefined" )
+	if(typeof $('#contactform #subject').val() != "undefined" )
 	{
 	 subject = document.getElementById("subject").value;
 	}
-	if(typeof $j('#contactform #message').val() != "undefined" )
+	if(typeof $('#contactform #message').val() != "undefined" )
 	{
 	 message = document.getElementById("message").value;
 	}
 
 	
 	var errors=0;
-     if($j('#contactform #name').val()!=undefined)
-	 if($j('#contactform #name').val()=='') {
-	 	var hasClass=$j('#contactform #name').parent().parent().find(".error").hasClass("error");
+     if($('#contactform #name').val()!=undefined)
+	 if($('#contactform #name').val()=='') {
+	 	var hasClass=$('#contactform #name').parent().parent().find(".error").hasClass("error");
 	 	if(!hasClass)
-	 	    $j('#contactform #name').parent().parent().append('<label for="name" generated="true" class="error">Please enter your name</label>');
-			$j('#contactform #name').focus();
+	 	    $('#contactform #name').parent().parent().append('<label for="name" generated="true" class="error">Please enter your name</label>');
+			$('#contactform #name').focus();
 			//return false;
 			errors++;
 		}
 		else
-		$j('#contactform #name').parent().parent().find(".error").remove();
+		$('#contactform #name').parent().parent().find(".error").remove();
 		
-		if($j('#contactform #email').val()!=undefined)
-		if(validate_email($j('#contactform #email').val())==false ) {
-		var hasClass=$j('#contactform #email').parent().parent().find(".error").hasClass("error");
+		if($('#contactform #email').val()!=undefined)
+		if(validate_email($('#contactform #email').val())==false ) {
+		var hasClass=$('#contactform #email').parent().parent().find(".error").hasClass("error");
 	 	if(!hasClass)
-	 	    $j('#contactform #email').parent().parent().append('<label for="email" generated="true" class="error">Please enter a valid email address</label>');	
-			$j('#contactform #email').focus();
+	 	    $('#contactform #email').parent().parent().append('<label for="email" generated="true" class="error">Please enter a valid email address</label>');	
+			$('#contactform #email').focus();
 			//return false;
 			errors++;
 		}
 		else
-		$j('#contactform #email').parent().parent().find(".error").remove();
+		$('#contactform #email').parent().parent().find(".error").remove();
 		
 		
-		if($j('#contactform #subject').val()!=undefined)
-		if($j('#contactform #subject').val()==''){
-		var hasClass=$j('#contactform #subject').parent().parent().find(".error").hasClass("error");
+		if($('#contactform #subject').val()!=undefined)
+		if($('#contactform #subject').val()==''){
+		var hasClass=$('#contactform #subject').parent().parent().find(".error").hasClass("error");
 	 	if(!hasClass)
-	 	    $j('#contactform #subject').parent().parent().append('<label for="subject" generated="true" class="error">You need to enter a subject!</label>');	
-			$j('#contactform #subject').focus();
+	 	    $('#contactform #subject').parent().parent().append('<label for="subject" generated="true" class="error">You need to enter a subject!</label>');	
+			$('#contactform #subject').focus();
 			//return false;
 			errors++;
 		}
 		else
-		$j('#contactform #subject').parent().parent().find(".error").remove();
+		$('#contactform #subject').parent().parent().find(".error").remove();
 		
-		if($j('#contactform #message').val()!=undefined)
-		if($j('#contactform #message').val()==''){
-		var hasClass=$j('#contactform #message').parent().parent().find(".error").hasClass("error");
+		if($('#contactform #message').val()!=undefined)
+		if($('#contactform #message').val()==''){
+		var hasClass=$('#contactform #message').parent().parent().find(".error").hasClass("error");
 	 	if(!hasClass)
-	 	    $j('#contactform #message').parent().parent().append('<label for="message" generated="true" class="error">You need to enter a message!</label>');	
-			$j('#contactform #message').focus();
+	 	    $('#contactform #message').parent().parent().append('<label for="message" generated="true" class="error">You need to enter a message!</label>');	
+			$('#contactform #message').focus();
 			//return false;
 			errors++;
 		}
 		else
-		$j('#contactform #message').parent().parent().find(".error").remove();
+		$('#contactform #message').parent().parent().find(".error").remove();
 		
 	
 

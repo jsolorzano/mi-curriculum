@@ -74,7 +74,6 @@
 
 	} 
 	?>
-	?>
 
 	<!-- Inclusión de la sección 'portfolio' -->
 	<?php 
