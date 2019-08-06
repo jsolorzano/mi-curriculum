@@ -9,6 +9,7 @@ if(isset($_GET['lang'])){
 		include "php/lang/".$_GET['lang']."/language.php";
 		include "php/lang/".$_GET['lang']."/titles.php";
 		include "php/lang/".$_GET['lang']."/basic.php";
+		include "php/lang/".$_GET['lang']."/portfolio.php";
 		include "php/lang/".$_GET['lang']."/work_experience.php";
 		include "php/lang/".$_GET['lang']."/education.php";
 		include "php/lang/".$_GET['lang']."/references.php";
@@ -21,6 +22,7 @@ if(isset($_GET['lang'])){
 		include "php/lang/en/language.php";
 		include "php/lang/en/titles.php";
 		include "php/lang/en/basic.php";
+		include "php/lang/en/portfolio.php";
 		include "php/lang/en/work_experience.php";
 		include "php/lang/en/education.php";
 		include "php/lang/en/references.php";
@@ -35,6 +37,7 @@ if(isset($_GET['lang'])){
 	include "php/lang/en/language.php";
 	include "php/lang/en/titles.php";
 	include "php/lang/en/basic.php";
+	include "php/lang/en/portfolio.php";
 	include "php/lang/en/work_experience.php";
 	include "php/lang/en/education.php";
 	include "php/lang/en/references.php";
