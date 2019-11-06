@@ -22,7 +22,7 @@
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase"><?php echo $lang['basic']['phone']; ?>:</strong></div>
-              <div class="col-sm-8">+58-414-0474741</div>
+              <div class="col-sm-8">+58-412-2244888</div>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase"><?php echo $lang['basic']['address']; ?>:</strong></div>
@@ -30,7 +30,7 @@
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase"><?php echo $lang['basic']['language']; ?>:</strong></div>
-              <div class="col-sm-8">Spanish, English</div>
+              <div class="col-sm-8"><?php echo $lang['basic']['languages']; ?></div>
             </div>
           </div>
         </div>

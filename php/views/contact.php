@@ -52,7 +52,7 @@
                     <p class="mb-0"><strong><?php echo $lang['contact']['my_address']; ?> </strong></p>
                     <p class="pb-2">Maracay, Venezuela</p>
                     <p class="mb-0"><strong><?php echo $lang['contact']['my_phone']; ?></strong></p>
-                    <p class="pb-2">+58-414-0474741</p>
+                    <p class="pb-2">+58-412-2244888</p>
                     <p class="mb-0"><strong><?php echo $lang['contact']['my_email']; ?></strong></p>
                     <p>solorzano202009@gmail.com</p>
                   </div>

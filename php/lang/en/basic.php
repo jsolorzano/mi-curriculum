@@ -22,4 +22,6 @@ $lang['basic']['address'] = "ADDRESS";
 
 $lang['basic']['language'] = "LANGUAGE";
 
+$lang['basic']['languages'] = "Spanish, English";
+
 ?>

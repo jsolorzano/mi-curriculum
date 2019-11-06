@@ -8,6 +8,6 @@ $lang['icons']['home_twitter'] = "Follow me on Twitter";
 
 $lang['icons']['home_linkedin'] = "Follow me on LinkedIn";
 
-$lang['icons']['home_github'] = "Follow me on GitHub";
+$lang['icons']['home_github'] = "Repositories on GitHub";
 
 ?>
