@@ -6,14 +6,14 @@ $lang['experience']['web_developer_free'] = array(
 	'year' => 'APRIL 2018 - PRESENT',
 	'company' => 'Freelance',
 	'title' => 'Web Developer',
-	'commentary' => 'Develop technological solutions using technologies under Web environments.'
+	'commentary' => 'Development of web applications independently for companies and individuals.'
 );
 
 $lang['experience']['web_developer'] = array(
 	'year' => 'APRIL 2017 - PRESENT',
 	'company' => 'Desarrollos Imago',
 	'title' => 'Web Developer',
-	'commentary' => 'Develop technological solutions using technologies under Web environments.'
+	'commentary' => 'Development of pages, applications and web systems using git as a version control tool. Deployment of developments on local and remote servers. Basic administration of local and remote servers.'
 );
 
 $lang['experience']['programmer'] = array(
