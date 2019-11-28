@@ -6,14 +6,14 @@ $lang['experience']['web_developer_free'] = array(
 	'year' => 'ABRIL 2018 - PRESENTE',
 	'company' => 'Freelance',
 	'title' => 'Desarrollador Web',
-	'commentary' => 'Desarrollar soluciones técnológias usando tecnologías bajo entornos Web.'
+	'commentary' => 'Desarrollar soluciones técnológicas usando tecnologías bajo entornos Web.'
 );
 
 $lang['experience']['web_developer'] = array(
 	'year' => 'ABRIL 2017 - PRESENTE',
 	'company' => 'Desarrollos Imago',
 	'title' => 'Desarrollador Web',
-	'commentary' => 'Desarrollar soluciones técnológias usando tecnologías bajo entornos Web.'
+	'commentary' => 'Desarrollar soluciones técnológicas usando tecnologías bajo entornos Web.'
 );
 
 $lang['experience']['programmer'] = array(
