@@ -26,25 +26,25 @@ $lang['portfolio']['web-development'][] = array(
 	'subtitle' => 'Desarrollo web'
 );
 
-$lang['portfolio']['graphic-desing'][] = array(
+$lang['portfolio']['graphic-design'][] = array(
 	'image' => 'images/graphic-design-1.jpg',
 	'title' => 'Patrón de triángulo',
 	'subtitle' => 'Diseño gráfico'
 );
 
-$lang['portfolio']['graphic-desing'][] = array(
+$lang['portfolio']['graphic-design'][] = array(
 	'image' => 'images/graphic-design-2.jpg',
 	'title' => 'Paraguas abstracto',
 	'subtitle' => 'Diseño gráfico'
 );
 
-$lang['portfolio']['graphic-desing'][] = array(
+$lang['portfolio']['graphic-design'][] = array(
 	'image' => 'images/graphic-design-3.jpg',
 	'title' => 'Textura de superficie de cubo',
 	'subtitle' => 'Diseño gráfico'
 );
 
-$lang['portfolio']['graphic-desing'][] = array(
+$lang['portfolio']['graphic-design'][] = array(
 	'image' => 'images/graphic-design-4.jpg',
 	'title' => 'Línea abstracta',
 	'subtitle' => 'Diseño gráfico'
