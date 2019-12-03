@@ -11,9 +11,9 @@ $lang['titles']['portfolio'] = "Portfolio";
 
 $lang['titles']['subtitle'] = "Projects with participation";
 
-$lang['titles']['backend'] = "Back-end";
+$lang['titles']['systems'] = "Systems";
 
-$lang['titles']['frontend'] = "Front-end";
+$lang['titles']['pages'] = "Web Pages";
 
 $lang['titles']['fullstack'] = "Full Stack";
 
