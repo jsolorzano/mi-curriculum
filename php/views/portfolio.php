@@ -5,13 +5,13 @@ foreach($lang['portfolio'] as $clave => $portafolio){
 	if(!in_array($clave, $pestañas)){
 		if($clave == "web-development"){
 			//~ $fa = "fa-laptop";
-			$fa = array("fa-laptop", "backend");
+			$fa = array("fa-laptop", "systems");
 		}else if($clave == "graphic-design"){
 			//~ $fa = "fa-picture-o";
-			$fa = array("fa-picture-o", "frontend");
+			$fa = array("fa-picture-o", "pages");
 		}else{
 			//~ $fa = "fa-camera";
-			$fa = array("fa-camera", "fullstack");
+			$fa = array("fa-stack-overflow", "fullstack");
 		}
 		$pestañas[$clave] = $fa;
 	}
