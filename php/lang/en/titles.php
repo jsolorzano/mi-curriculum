@@ -15,7 +15,7 @@ $lang['titles']['systems'] = "Systems";
 
 $lang['titles']['pages'] = "Web Pages";
 
-$lang['titles']['fullstack'] = "Full Stack";
+$lang['titles']['fullstack'] = "Portals";
 
 $lang['titles']['work_experience'] = "Work Experience";
 

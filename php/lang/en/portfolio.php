@@ -21,12 +21,6 @@ $lang['portfolio']['web-development'][] = array(
 );
 
 $lang['portfolio']['web-development'][] = array(
-	'image' => 'images/systems/EMS.png',
-	'title' => 'Event management',
-	'subtitle' => 'Information system'
-);
-
-$lang['portfolio']['web-development'][] = array(
 	'image' => 'images/systems/bim.png',
 	'title' => 'Account management',
 	'subtitle' => 'Information system'
@@ -71,31 +65,37 @@ $lang['portfolio']['graphic-design'][] = array(
 $lang['portfolio']['graphic-design'][] = array(
 	'image' => 'images/pages/pazverde.png',
 	'title' => 'Promotion of digital solutions',
-	'subtitle' => 'Página Web'
+	'subtitle' => 'Web Page'
+);
+
+$lang['portfolio']['graphic-design'][] = array(
+	'image' => 'images/pages/eittech.png',
+	'title' => 'Promotion of technological solutions',
+	'subtitle' => 'Web Page'
 );
 
 $lang['portfolio']['photography'][] = array(
-	'image' => 'images/photography-1.jpg',
-	'title' => 'Photoshoot',
-	'subtitle' => 'Photography'
+	'image' => 'images/fullstack/coms.png',
+	'title' => 'Promotion and management of sporting events',
+	'subtitle' => 'Web Portal'
 );
 
 $lang['portfolio']['photography'][] = array(
-	'image' => 'images/photography-2.jpg',
-	'title' => 'Wedding Photoshoot',
-	'subtitle' => 'Photography'
+	'image' => 'images/fullstack/EMS.png',
+	'title' => 'Promotion and management of various events',
+	'subtitle' => 'Web Portal'
 );
 
 $lang['portfolio']['photography'][] = array(
-	'image' => 'images/photography-3.jpg',
-	'title' => 'Beach Photoshoot',
-	'subtitle' => 'Photography'
+	'image' => 'images/fullstack/lubricar.png',
+	'title' => 'Promotion and management of automotive services',
+	'subtitle' => 'Web Portal'
 );
 
 $lang['portfolio']['photography'][] = array(
-	'image' => 'images/photography-4.jpg',
-	'title' => 'Nature Photoshoot',
-	'subtitle' => 'Photography'
+	'image' => 'images/fullstack/m3uniformes.png',
+	'title' => 'Promotion and management of uniform store',
+	'subtitle' => 'Web Portal'
 );
 
 ?>
