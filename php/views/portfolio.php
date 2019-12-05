@@ -140,8 +140,8 @@ $(document).ready(function(){
 				$(this).addClass('active');
 				$(this).attr("aria-expanded", true);
 				
-				$(this).find('div.carousel-item').removeClass('active');
-				$(this).find('div.carousel-item').eq(0).addClass('active');
+				$(this).find('div.carousel-item').removeClass('active');  // Removemos la clase 'active' a todos los items del carrusel
+				$(this).find('div.carousel-item').eq(0).addClass('active');  // Asignamos la clase 'active' sólo al primer item del carrusel
 			
 			}else{
 			
