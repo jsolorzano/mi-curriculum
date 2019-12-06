@@ -19,6 +19,19 @@
     <script src="js/aos.js"></script>
     <script src="scripts/main.js"></script>
     <script src="js/email.js"></script>
+    <script>
+		// Script para descargar la síntesis curricular en pdf
+		$(document).ready(function(){
+			
+			// Al hacer click sobre el botón ''
+			$("a#download_cv").on('click', function (e) {
+			
+				$("form[name=download_cv]").submit();
+			
+			});
+			
+		});
+    </script>
   </head>
   <body id="top">
     <header>
@@ -52,7 +65,10 @@
 			<div class="content-center">
 			  <div class="cc-profile-image"><a href="#"><img src="images/yo.jpeg" alt="Image"/></a></div>
 			  <div class="h2 title">José Solorzano</div>
-			  <p class="category text-white"><?php echo $lang['basic']['title']; ?></p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor"><?php echo $lang['basic']['hire_me']; ?></a><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor"><?php echo $lang['basic']['download']; ?></a>
+			  <form method="post" name="download_cv">
+			  <input type="hidden" name="download_cv">
+			  <p class="category text-white"><?php echo $lang['basic']['title']; ?></p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor"><?php echo $lang['basic']['hire_me']; ?></a><a class="btn btn-primary" id="download_cv" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor"><?php echo $lang['basic']['download']; ?></a>
+			  </form>
 			</div>
 		  </div>
 		  <div class="section">
