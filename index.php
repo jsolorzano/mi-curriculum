@@ -46,6 +46,10 @@ if(isset($_GET['lang'])){
 }
 
 include "php/config.php";
+
+// Librería de pdf
+include "php/download_cv.php";
+
 include "php/views/content.php";
 
 ?>
