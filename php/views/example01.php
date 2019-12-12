@@ -34,7 +34,7 @@ div.h4 {
 				<p>
 					<?php echo $lang['basic']['about_name']; ?>
 				</p>
-				<p>
+				<p style="text-align:justify;">
 					<?php echo $lang['basic']['about_details']; ?>
 				</p>
 			</td>
@@ -225,8 +225,39 @@ div.h4 {
 				<div style="font-size: 1.57em;line-height: 1.4em;margin-top:0px;margin-bottom: 1rem;text-align: left;color:#2c2c46;">
 					<?php echo $experience['title']; ?>
 				</div>
-				<p style="font-size: 14px;color:#2c2c46;">
+				<p style="font-size: 14px;color:#2c2c46;text-align:justify;">
 					<?php echo $experience['commentary']; ?>
+				</p>
+			</td>
+		</tr>
+		<?php } ?>
+    </table>
+    
+	<br>
+	<br>
+	
+	<div style="font-weight: 700;font-size: 20px;line-height: 1.45em;text-align: center"><b><?php echo $lang['titles']['education']; ?></b></div>
+	
+	<table style="width:80%;" align="center">
+		<?php foreach($lang['education'] as $key_ed => $education){ ?>
+		<tr style="height:190px;">
+			<td style="border: solid 1px #AAAAAA;width:30%;height:190px;background-color: #24292e">
+				<div style="font-size: 14px;line-height: 1.61em;margin-top:0px;margin-bottom: 1rem;text-align: center;color:#fff;text-transform: uppercase;">
+					<?php echo $education['year']; ?>
+				</div>
+				<p style="font-size: 18px;text-align: center;color:#fff;text-transform: uppercase;">
+					<b><?php echo $education['level']; ?></b>
+				</p>
+			</td>
+			<td style="border: solid 1px #AAAAAA;width:80%">
+				<div style="font-size: 1.57em;line-height: 1.4em;margin-top:0px;margin-bottom: 1rem;text-align: left;color:#2c2c46;">
+					<?php echo $education['title']; ?>
+				</div>
+				<div style="font-size: 1.57em;line-height: 1.4em;margin-top:0px;margin-bottom: 1rem;text-align: left;color:#2c2c46;">
+					<?php echo $education['school']; ?>
+				</div>
+				<p style="font-size: 14px;color:#2c2c46;text-align:justify;">
+					<?php echo $education['commentary']; ?>
 				</p>
 			</td>
 		</tr>
