@@ -27,6 +27,7 @@ div.h4 {
 </style>
 <page style="font-size: 10pt">
 	
+	<!-- Sección de datos básicos -->
 	<table style="width:80%;" align="center">
 		<tr>
 			<td style="border: solid 1px #AAAAAA;width:50%">
@@ -74,6 +75,7 @@ div.h4 {
 	<br>
 	<br>
 	
+	<!-- Sección de habilidades profesionales -->
 	<div style="font-weight: 700;font-size: 20px;line-height: 1.45em;text-align: center"><b><?php echo $lang['titles']['professional_skills']; ?></b></div>
 	
 	<table style="width:80%;" align="center">
@@ -208,6 +210,7 @@ div.h4 {
 	<br>
 	<br>
 	
+	<!-- Sección de experiencia laboral -->
 	<div style="font-weight: 700;font-size: 20px;line-height: 1.45em;text-align: center"><b><?php echo $lang['titles']['work_experience']; ?></b></div>
 	
 	<table style="width:80%;" align="center">
@@ -236,6 +239,7 @@ div.h4 {
 	<br>
 	<br>
 	
+	<!-- Sección de educación -->
 	<div style="font-weight: 700;font-size: 20px;line-height: 1.45em;text-align: center"><b><?php echo $lang['titles']['education']; ?></b></div>
 	
 	<table style="width:80%;" align="center">
@@ -261,6 +265,37 @@ div.h4 {
 				</p>
 			</td>
 		</tr>
+		<?php } ?>
+    </table>
+    
+	<br>
+	<br>
+	
+	<!-- Sección de referencias personales -->
+	<div style="font-weight: 700;font-size: 20px;line-height: 1.45em;text-align: center"><b><?php echo $lang['titles']['education']; ?></b></div>
+	
+	<table style="width:80%;" align="center">
+		<?php $num_r = 0; ?>
+		<?php foreach($lang['reference'] as $key_ref => $reference){ ?>
+		<tr style="height:190px;">
+			<td style="border: solid 1px #AAAAAA;width:30%;height:190px;background-color: #24292e">
+				<div style="text-align: center;width:100px;height:100px;">
+					<img src="images/reference-image-<?php echo $num_r+1;?>.jpg" style="width:100%;height:100%;margin:auto;">
+				</div>
+				<div style="font-size: 14px;line-height: 1.61em;margin-top:0px;margin-bottom: 1rem;text-align: center;color:#fff;text-transform: uppercase;">
+					<?php echo $reference['name']; ?>
+				</div>
+				<div style="font-size: 14px;line-height: 1.61em;margin-top:0px;margin-bottom: 1rem;text-align: center;color:#fff;text-transform: uppercase;">
+					<?php echo $reference['position']; ?>
+				</div>
+			</td>
+			<td style="border: solid 1px #AAAAAA;width:80%">
+				<p style="font-size: 14px;color:#2c2c46;text-align:justify;">
+					<?php echo $reference['commentary']; ?>
+				</p>
+			</td>
+		</tr>
+		<?php $num_r++ ?>
 		<?php } ?>
     </table>
 	
