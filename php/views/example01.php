@@ -210,6 +210,59 @@ div.h4 {
 	<br>
 	<br>
 	
+	<?php
+	// Construcción de los elementos de pestaña
+	$pestañas = array();
+	foreach($lang['portfolio'] as $clave => $portafolio){
+		if(!in_array($clave, $pestañas)){
+			if($clave == "web-development"){
+				//~ $fa = "fa-laptop";
+				$fa = array("fa-laptop", "systems");
+			}else if($clave == "graphic-design"){
+				//~ $fa = "fa-picture-o";
+				$fa = array("fa-picture-o", "pages");
+			}else{
+				//~ $fa = "fa-camera";
+				$fa = array("fa-stack-overflow", "fullstack");
+			}
+			$pestañas[$clave] = $fa;
+		}
+	}
+	?>
+	<!-- Sección de portafolio (proyectos con participación) -->
+	<div style="font-weight: 700;font-size: 20px;line-height: 1.45em;text-align: center"><b><?php echo $lang['titles']['portfolio']; ?></b></div>
+	<div style="font-weight: 700;font-size: 20px;line-height: 1.45em;text-align: center"><b><?php echo $lang['titles']['subtitle']; ?></b></div>
+	
+	<table style="width:80%;" align="center">
+		<?php foreach($pestañas as $key => $fa){ ?>
+			<?php $num_r = 0; ?>
+			<?php foreach($lang['portfolio'][$key] as $project){ ?>
+			<tr style="height:190px;">
+				<td style="border: solid 1px #AAAAAA;width:30%;height:190px;background-color: #24292e">
+					<p style="font-size: 14px;text-align: center;color:#fff;text-transform: uppercase;">
+						<?php echo $project['title']; ?>
+					</p>
+					<div style="font-size: 14px;line-height: 1.61em;margin-top:0px;margin-bottom: 1rem;text-align: center;color:#fff;text-transform: uppercase;">
+						<?php echo $project['subtitle']; ?>
+					</div>
+					<div style="font-size: 14px;line-height: 1.61em;margin-top:0px;margin-bottom: 1rem;text-align: center;color:#fff;text-transform: uppercase;">
+						<?php echo $lang['titles'][$fa[1]]; ?>
+					</div>
+				</td>
+				<td style="border: solid 1px #AAAAAA;width:80%">
+					<p style="font-size: 14px;color:#2c2c46;text-align:justify;">
+						<img src="<?php echo $project['image']; ?>" style="width:100%;height:100%;">
+					</p>
+				</td>
+			</tr>
+			<?php $num_r++ ?>
+			<?php } ?>
+		<?php } ?>
+    </table>
+    
+	<br>
+	<br>
+	
 	<!-- Sección de experiencia laboral -->
 	<div style="font-weight: 700;font-size: 20px;line-height: 1.45em;text-align: center"><b><?php echo $lang['titles']['work_experience']; ?></b></div>
 	
@@ -272,14 +325,14 @@ div.h4 {
 	<br>
 	
 	<!-- Sección de referencias personales -->
-	<div style="font-weight: 700;font-size: 20px;line-height: 1.45em;text-align: center"><b><?php echo $lang['titles']['education']; ?></b></div>
+	<div style="font-weight: 700;font-size: 20px;line-height: 1.45em;text-align: center"><b><?php echo $lang['titles']['references']; ?></b></div>
 	
 	<table style="width:80%;" align="center">
 		<?php $num_r = 0; ?>
 		<?php foreach($lang['reference'] as $key_ref => $reference){ ?>
 		<tr style="height:190px;">
 			<td style="border: solid 1px #AAAAAA;width:30%;height:190px;background-color: #24292e">
-				<div style="text-align: center;width:100px;height:100px;">
+				<div style="text-align: center;width:100px;height:100px;" align="center">
 					<img src="images/reference-image-<?php echo $num_r+1;?>.jpg" style="width:100%;height:100%;margin:auto;">
 				</div>
 				<div style="font-size: 14px;line-height: 1.61em;margin-top:0px;margin-bottom: 1rem;text-align: center;color:#fff;text-transform: uppercase;">
