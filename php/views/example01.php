@@ -19,10 +19,9 @@ table.morpion td.j1 { color: #0A0; }
 table.morpion td.j2 { color: #A00; }
 -->
 div.h4 {
-	font-weight: 700;
+	font-weight: 700px;
 	font-size: 1.714em;
 	line-height: 1.45em;
-	margin-top: 30px;
 }
 
 </style>
@@ -31,44 +30,207 @@ div.h4 {
 	<table style="width:80%;" align="center">
 		<tr>
 			<td style="border: solid 1px #AAAAAA;width:50%">
-				<div class="h4">Sobre mí</div>
+				<div style="font-weight: 700;font-size: 20px;line-height: 1.45em;margin-top:0px;"><b><?php echo $lang['titles']['about']; ?></b></div>
 				<p>
-					¡Hola! Soy José Solorzano. Desarrollador Web Full Stack.
+					<?php echo $lang['basic']['about_name']; ?>
 				</p>
 				<p>
-					Desarrollador Web con principal experiencia en tecnologías LAMP (LAMP Stack Developer). Siempre que se pueda, prefiero el aprendizaje de desarrollar software de forma artesanal que el uso de librerías como primera opción. Aficionado a la instalación y prueba de Distribuciones Linux.
+					<?php echo $lang['basic']['about_details']; ?>
 				</p>
 			</td>
 			<td style="border: solid 1px #AAAAAA;width:50%">
-				<div class="h4">Información básica</div>
-				<table style="width:100%">
-					<tr>
-						<td style="width:30%">Edad:</td>
-						<td style="width:80%">30</td>
-					</tr>
-					<tr>
-						<td style="width:30%">Correo:</td>
-						<td style="width:80%">solorzano202009@gmail.com</td>
-					</tr>
-					<tr>
-						<td style="width:30%">Teléfono:</td>
-						<td style="width:80%">+58-412-2244888</td>
-					</tr>
-					<tr>
-						<td style="width:30%">Dirección:</td>
-						<td style="width:80%">Maracay, Venezuela</td>
-					</tr>
-					<tr>
-						<td style="width:30%">Idioma:</td>
-						<td style="width:80%">Español, Inglés</td>
-					</tr>
-				</table>
+				<div style="font-weight: 700;font-size: 20px;line-height: 1.45em;margin-top:0px;"><b><?php echo $lang['titles']['basic_information']; ?></b></div>
+				<p>
+					<table style="width:100%">
+						<tr>
+							<td style="width:30%"><?php echo $lang['basic']['age']; ?>:</td>
+							<td style="width:80%">30</td>
+						</tr>
+						<tr>
+							<td style="width:30%"><?php echo $lang['basic']['email']; ?>:</td>
+							<td style="width:80%">solorzano202009@gmail.com</td>
+						</tr>
+						<tr>
+							<td style="width:30%"><?php echo $lang['basic']['phone']; ?>:</td>
+							<td style="width:80%">+58-412-2244888</td>
+						</tr>
+						<tr>
+							<td style="width:30%"><?php echo $lang['basic']['address']; ?>:</td>
+							<td style="width:80%">Maracay, Venezuela</td>
+						</tr>
+						<tr>
+							<td style="width:30%"><?php echo $lang['basic']['language']; ?>:</td>
+							<td style="width:80%"><?php echo $lang['basic']['languages']; ?></td>
+						</tr>
+					</table>
+				</p>
+				<p>
+					<br>
+				</p>
 			</td>
 		</tr>
     </table>
     
 	<br>
+	<br>
 	
-	<div class="h4" style="text-align: center !important;">Habilidades profesionales</div>
+	<div style="font-weight: 700;font-size: 20px;line-height: 1.45em;text-align: center"><b><?php echo $lang['titles']['professional_skills']; ?></b></div>
+	
+	<table style="width:80%;" align="center">
+		<tr>
+			<td style="border: solid 1px #AAAAAA;width:50%">
+				<p>
+					<table style="width:100%">
+						<tr>
+							<td style="width:40%">HTML:</td>
+							<td style="width:60%;">
+								<div style="width: 180px;height:15px;background-color:#afd1b2;">
+									<div style="width: 80%;height:100%;background-color:#377ba8;">80 %</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td style="width:40%">PHP:</td>
+							<td style="width:60%">
+								<div style="width: 180px;height:15px;background-color:#afd1b2;">
+									<div style="width: 75%;height:100%;background-color:#377ba8;">75 %</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td style="width:40%">JAVASCRIPT:</td>
+							<td style="width:60%">
+								<div style="width: 180px;height:15px;background-color:#afd1b2;">
+									<div style="width: 60%;height:100%;background-color:#377ba8;">60 %</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td style="width:40%">SHELL:</td>
+							<td style="width:60%">
+								<div style="width: 180px;height:15px;background-color:#afd1b2;">
+									<div style="width: 50%;height:100%;background-color:#377ba8;">50 %</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td style="width:40%">GITHUB:</td>
+							<td style="width:60%">
+								<div style="width: 180px;height:15px;background-color:#afd1b2;">
+									<div style="width: 60%;height:100%;background-color:#377ba8;">60 %</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td style="width:40%">AJAX:</td>
+							<td style="width:60%">
+								<div style="width: 180px;height:15px;background-color:#afd1b2;">
+									<div style="width: 70%;height:100%;background-color:#377ba8;">70 %</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td style="width:40%">MYSQL:</td>
+							<td style="width:60%">
+								<div style="width: 180px;height:15px;background-color:#afd1b2;">
+									<div style="width: 60%;height:100%;background-color:#377ba8;">60 %</div>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</p>
+			</td>
+			<td style="border: solid 1px #AAAAAA;width:50%">
+				<p>
+					<table style="width:100%">
+						<tr>
+							<td style="width:40%">CSS:</td>
+							<td style="width:60%">
+								<div style="width: 180px;height:15px;background-color:#afd1b2;">
+									<div style="width: 60%;height:100%;background-color:#377ba8;">60 %</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td style="width:40%">BOOTSTRAP:</td>
+							<td style="width:60%">
+								<div style="width: 180px;height:15px;background-color:#afd1b2;">
+									<div style="width: 60%;height:100%;background-color:#377ba8;">60 %</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td style="width:40%">JQUERY:</td>
+							<td style="width:60%">
+								<div style="width: 180px;height:15px;background-color:#afd1b2;">
+									<div style="width: 70%;height:100%;background-color:#377ba8;">70 %</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td style="width:40%">GIT:</td>
+							<td style="width:60%">
+								<div style="width: 180px;height:15px;background-color:#afd1b2;">
+									<div style="width: 50%;height:100%;background-color:#377ba8;">50 %</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td style="width:40%">GITLAB:</td>
+							<td style="width:60%">
+								<div style="width: 180px;height:15px;background-color:#afd1b2;">
+									<div style="width: 60%;height:100%;background-color:#377ba8;">60 %</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td style="width:40%">SQL:</td>
+							<td style="width:60%">
+								<div style="width: 180px;height:15px;background-color:#afd1b2;">
+									<div style="width: 60%;height:100%;background-color:#377ba8;">60 %</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td style="width:40%">POSTGRESQL:</td>
+							<td style="width:60%">
+								<div style="width: 180px;height:15px;background-color:#afd1b2;">
+									<div style="width: 60%;height:100%;background-color:#377ba8;">60 %</div>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</p>
+			</td>
+		</tr>
+    </table>
+    
+	<br>
+	<br>
+	
+	<div style="font-weight: 700;font-size: 20px;line-height: 1.45em;text-align: center"><b><?php echo $lang['titles']['work_experience']; ?></b></div>
+	
+	<table style="width:80%;" align="center">
+		<?php foreach($lang['experience'] as $key_ex => $experience){ ?>
+		<tr style="height:190px;">
+			<td style="border: solid 1px #AAAAAA;width:30%;height:190px;background-color: #24292e">
+				<div style="font-size: 14px;line-height: 1.61em;margin-top:0px;margin-bottom: 1rem;text-align: center;color:#fff;text-transform: uppercase;">
+					<?php echo $experience['year']; ?>
+				</div>
+				<p style="font-size: 18px;text-align: center;color:#fff;text-transform: uppercase;">
+					<b><?php echo $experience['company']; ?></b>
+				</p>
+			</td>
+			<td style="border: solid 1px #AAAAAA;width:80%">
+				<div style="font-size: 1.57em;line-height: 1.4em;margin-top:0px;margin-bottom: 1rem;text-align: left;color:#2c2c46;">
+					<?php echo $experience['title']; ?>
+				</div>
+				<p style="font-size: 14px;color:#2c2c46;">
+					<?php echo $experience['commentary']; ?>
+				</p>
+			</td>
+		</tr>
+		<?php } ?>
+    </table>
 	
 </page>
