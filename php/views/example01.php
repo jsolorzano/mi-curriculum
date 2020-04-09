@@ -87,7 +87,7 @@ div.h4 {
 							<td style="width:40%">HTML:</td>
 							<td style="width:60%;">
 								<div style="width: 180px;height:15px;background-color:#afd1b2;">
-									<div style="width: 80%;height:100%;background-color:#377ba8;">80 %</div>
+									<div style="width: 80%;height:100%;background-color:#377ba8;color:#fff;text-align: center;">80 %</div>
 								</div>
 							</td>
 						</tr>
@@ -95,7 +95,7 @@ div.h4 {
 							<td style="width:40%">PHP:</td>
 							<td style="width:60%">
 								<div style="width: 180px;height:15px;background-color:#afd1b2;">
-									<div style="width: 75%;height:100%;background-color:#377ba8;">75 %</div>
+									<div style="width: 75%;height:100%;background-color:#377ba8;color:#fff;text-align: center;">75 %</div>
 								</div>
 							</td>
 						</tr>
@@ -103,7 +103,7 @@ div.h4 {
 							<td style="width:40%">JAVASCRIPT:</td>
 							<td style="width:60%">
 								<div style="width: 180px;height:15px;background-color:#afd1b2;">
-									<div style="width: 60%;height:100%;background-color:#377ba8;">60 %</div>
+									<div style="width: 60%;height:100%;background-color:#377ba8;color:#fff;text-align: center;">60 %</div>
 								</div>
 							</td>
 						</tr>
@@ -111,7 +111,7 @@ div.h4 {
 							<td style="width:40%">SHELL:</td>
 							<td style="width:60%">
 								<div style="width: 180px;height:15px;background-color:#afd1b2;">
-									<div style="width: 50%;height:100%;background-color:#377ba8;">50 %</div>
+									<div style="width: 50%;height:100%;background-color:#377ba8;color:#fff;text-align: center;">50 %</div>
 								</div>
 							</td>
 						</tr>
@@ -119,7 +119,7 @@ div.h4 {
 							<td style="width:40%">GITHUB:</td>
 							<td style="width:60%">
 								<div style="width: 180px;height:15px;background-color:#afd1b2;">
-									<div style="width: 60%;height:100%;background-color:#377ba8;">60 %</div>
+									<div style="width: 60%;height:100%;background-color:#377ba8;color:#fff;text-align: center;">60 %</div>
 								</div>
 							</td>
 						</tr>
@@ -127,7 +127,7 @@ div.h4 {
 							<td style="width:40%">AJAX:</td>
 							<td style="width:60%">
 								<div style="width: 180px;height:15px;background-color:#afd1b2;">
-									<div style="width: 70%;height:100%;background-color:#377ba8;">70 %</div>
+									<div style="width: 70%;height:100%;background-color:#377ba8;color:#fff;text-align: center;">70 %</div>
 								</div>
 							</td>
 						</tr>
@@ -135,7 +135,7 @@ div.h4 {
 							<td style="width:40%">MYSQL:</td>
 							<td style="width:60%">
 								<div style="width: 180px;height:15px;background-color:#afd1b2;">
-									<div style="width: 60%;height:100%;background-color:#377ba8;">60 %</div>
+									<div style="width: 60%;height:100%;background-color:#377ba8;color:#fff;text-align: center;">60 %</div>
 								</div>
 							</td>
 						</tr>
@@ -149,7 +149,7 @@ div.h4 {
 							<td style="width:40%">CSS:</td>
 							<td style="width:60%">
 								<div style="width: 180px;height:15px;background-color:#afd1b2;">
-									<div style="width: 60%;height:100%;background-color:#377ba8;">60 %</div>
+									<div style="width: 60%;height:100%;background-color:#377ba8;color:#fff;text-align: center;">60 %</div>
 								</div>
 							</td>
 						</tr>
@@ -157,7 +157,7 @@ div.h4 {
 							<td style="width:40%">BOOTSTRAP:</td>
 							<td style="width:60%">
 								<div style="width: 180px;height:15px;background-color:#afd1b2;">
-									<div style="width: 60%;height:100%;background-color:#377ba8;">60 %</div>
+									<div style="width: 60%;height:100%;background-color:#377ba8;color:#fff;text-align: center;">60 %</div>
 								</div>
 							</td>
 						</tr>
@@ -165,7 +165,7 @@ div.h4 {
 							<td style="width:40%">JQUERY:</td>
 							<td style="width:60%">
 								<div style="width: 180px;height:15px;background-color:#afd1b2;">
-									<div style="width: 70%;height:100%;background-color:#377ba8;">70 %</div>
+									<div style="width: 70%;height:100%;background-color:#377ba8;color:#fff;text-align: center;">70 %</div>
 								</div>
 							</td>
 						</tr>
@@ -173,7 +173,7 @@ div.h4 {
 							<td style="width:40%">GIT:</td>
 							<td style="width:60%">
 								<div style="width: 180px;height:15px;background-color:#afd1b2;">
-									<div style="width: 50%;height:100%;background-color:#377ba8;">50 %</div>
+									<div style="width: 50%;height:100%;background-color:#377ba8;color:#fff;text-align: center;">50 %</div>
 								</div>
 							</td>
 						</tr>
@@ -181,7 +181,7 @@ div.h4 {
 							<td style="width:40%">GITLAB:</td>
 							<td style="width:60%">
 								<div style="width: 180px;height:15px;background-color:#afd1b2;">
-									<div style="width: 60%;height:100%;background-color:#377ba8;">60 %</div>
+									<div style="width: 60%;height:100%;background-color:#377ba8;color:#fff;text-align: center;">60 %</div>
 								</div>
 							</td>
 						</tr>
@@ -189,7 +189,7 @@ div.h4 {
 							<td style="width:40%">SQL:</td>
 							<td style="width:60%">
 								<div style="width: 180px;height:15px;background-color:#afd1b2;">
-									<div style="width: 60%;height:100%;background-color:#377ba8;">60 %</div>
+									<div style="width: 60%;height:100%;background-color:#377ba8;color:#fff;text-align: center;">60 %</div>
 								</div>
 							</td>
 						</tr>
@@ -197,7 +197,7 @@ div.h4 {
 							<td style="width:40%">POSTGRESQL:</td>
 							<td style="width:60%">
 								<div style="width: 180px;height:15px;background-color:#afd1b2;">
-									<div style="width: 60%;height:100%;background-color:#377ba8;">60 %</div>
+									<div style="width: 60%;height:100%;background-color:#377ba8;color:#fff;text-align: center;">60 %</div>
 								</div>
 							</td>
 						</tr>
@@ -242,12 +242,12 @@ div.h4 {
 					<p style="font-size: 14px;text-align: center;color:#fff;text-transform: uppercase;">
 						<?php echo $project['title']; ?>
 					</p>
-					<div style="font-size: 14px;line-height: 1.61em;margin-top:0px;margin-bottom: 1rem;text-align: center;color:#fff;text-transform: uppercase;">
+					<p style="font-size: 14px;text-align: center;color:#fff;text-transform: uppercase;">
 						<?php echo $project['subtitle']; ?>
-					</div>
-					<div style="font-size: 14px;line-height: 1.61em;margin-top:0px;margin-bottom: 1rem;text-align: center;color:#fff;text-transform: uppercase;">
+					</p>
+					<p style="font-size: 14px;text-align: center;color:#fff;text-transform: uppercase;">
 						<?php echo $lang['titles'][$fa[1]]; ?>
-					</div>
+					</p>
 				</td>
 				<td style="border: solid 1px #AAAAAA;width:80%">
 					<p style="font-size: 14px;color:#2c2c46;text-align:justify;">

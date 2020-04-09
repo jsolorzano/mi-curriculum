@@ -70,7 +70,7 @@ $lang['portfolio']['graphic-design'][] = array(
 
 $lang['portfolio']['graphic-design'][] = array(
 	'image' => 'images/pages/eittech.png',
-	'title' => 'Promoción de soluciones de tecnológicas',
+	'title' => 'Promoción de soluciones tecnológicas',
 	'subtitle' => 'Página Web'
 );
 
