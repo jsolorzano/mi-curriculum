@@ -13,7 +13,7 @@ $lang['experience']['web_developer'] = array(
 	'year' => 'ABRIL 2017 - PRESENTE',
 	'company' => 'Desarrollos Imago',
 	'title' => 'Desarrollador Web',
-	'commentary' => 'Desarrollo de páginas, aplicaciones y sistemas web usando git como herramienta de control de versiones. Despliegue de los desarrollos en servidores locales y remotos. Administración básica de servidores locales y remotos.'
+	'commentary' => 'Desarrollo de páginas, aplicaciones y sistemas web bajo entornos LAMPP. Despliegue de los desarrollos en servidores locales y remotos. Administración básica de servidores locales y remotos.'
 );
 
 $lang['experience']['programmer'] = array(

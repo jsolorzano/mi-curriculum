@@ -2,7 +2,7 @@
 
 // Textos de datos de contacto de la página principal
 
-$lang['contact']['subtitle'] = "No dude en ponerse en contacto conmigo";
+$lang['contact']['subtitle'] = "No dudes en contactarme";
 
 $lang['contact']['your_name'] = "Nombre";
 
