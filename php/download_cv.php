@@ -1,4 +1,5 @@
 <?php
+ini_set('max_execution_time', 60);
 
 // Librería de pdf
 require_once dirname(__FILE__).'/../vendor/autoload.php';
