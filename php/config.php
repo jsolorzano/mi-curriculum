@@ -14,7 +14,7 @@ $config['config']['experience']['active'] = 1;
 
 $config['config']['education']['active'] = 1;
 
-$config['config']['reference']['active'] = 1;
+$config['config']['reference']['active'] = 0;
 
 $config['config']['contact']['active'] = 1;
 

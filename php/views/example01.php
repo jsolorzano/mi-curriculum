@@ -27,6 +27,7 @@ div.h4 {
 </style>
 <page style="font-size: 10pt">
 	
+	<?php if($config['config']['about']['active'] == 1){ ?>
 	<!-- Sección de datos básicos -->
 	<table style="width:80%;" align="center">
 		<tr>
@@ -45,7 +46,7 @@ div.h4 {
 					<table style="width:100%">
 						<tr>
 							<td style="width:30%"><?php echo $lang['basic']['age']; ?>:</td>
-							<td style="width:80%">30</td>
+							<td style="width:80%">32</td>
 						</tr>
 						<tr>
 							<td style="width:30%"><?php echo $lang['basic']['email']; ?>:</td>
@@ -71,7 +72,9 @@ div.h4 {
 			</td>
 		</tr>
     </table>
+    <?php } ?>
     
+    <?php if($config['config']['skill']['active'] == 1){ ?>
 	<br>
 	<br>
 	
@@ -135,7 +138,23 @@ div.h4 {
 							<td style="width:40%">MYSQL:</td>
 							<td style="width:60%">
 								<div style="width: 180px;height:15px;background-color:#afd1b2;">
-									<div style="width: 60%;height:100%;background-color:#377ba8;color:#fff;text-align: center;">60 %</div>
+									<div style="width: 70%;height:100%;background-color:#377ba8;color:#fff;text-align: center;">70 %</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td style="width:40%">CODEIGNITER:</td>
+							<td style="width:60%">
+								<div style="width: 180px;height:15px;background-color:#afd1b2;">
+									<div style="width: 75%;height:100%;background-color:#377ba8;color:#fff;text-align: center;">75 %</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td style="width:40%">PYTHON:</td>
+							<td style="width:60%">
+								<div style="width: 180px;height:15px;background-color:#afd1b2;">
+									<div style="width: 40%;height:100%;background-color:#377ba8;color:#fff;text-align: center;">40 %</div>
 								</div>
 							</td>
 						</tr>
@@ -189,7 +208,7 @@ div.h4 {
 							<td style="width:40%">SQL:</td>
 							<td style="width:60%">
 								<div style="width: 180px;height:15px;background-color:#afd1b2;">
-									<div style="width: 60%;height:100%;background-color:#377ba8;color:#fff;text-align: center;">60 %</div>
+									<div style="width: 70%;height:100%;background-color:#377ba8;color:#fff;text-align: center;">70 %</div>
 								</div>
 							</td>
 						</tr>
@@ -197,7 +216,23 @@ div.h4 {
 							<td style="width:40%">POSTGRESQL:</td>
 							<td style="width:60%">
 								<div style="width: 180px;height:15px;background-color:#afd1b2;">
-									<div style="width: 60%;height:100%;background-color:#377ba8;color:#fff;text-align: center;">60 %</div>
+									<div style="width: 70%;height:100%;background-color:#377ba8;color:#fff;text-align: center;">70 %</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td style="width:40%">VANILLA PHP:</td>
+							<td style="width:60%">
+								<div style="width: 180px;height:15px;background-color:#afd1b2;">
+									<div style="width: 75%;height:100%;background-color:#377ba8;color:#fff;text-align: center;">75 %</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td style="width:40%">DJANGO:</td>
+							<td style="width:60%">
+								<div style="width: 180px;height:15px;background-color:#afd1b2;">
+									<div style="width: 40%;height:100%;background-color:#377ba8;color:#fff;text-align: center;">40 %</div>
 								</div>
 							</td>
 						</tr>
@@ -206,7 +241,9 @@ div.h4 {
 			</td>
 		</tr>
     </table>
+    <?php } ?>
     
+    <?php if($config['config']['portfolio']['active'] == 1){ ?>
 	<br>
 	<br>
 	
@@ -259,7 +296,9 @@ div.h4 {
 			<?php } ?>
 		<?php } ?>
     </table>
+    <?php } ?>
     
+    <?php if($config['config']['experience']['active'] == 1){ ?>
 	<br>
 	<br>
 	
@@ -288,7 +327,9 @@ div.h4 {
 		</tr>
 		<?php } ?>
     </table>
+    <?php } ?>
     
+    <?php if($config['config']['education']['active'] == 1){ ?>
 	<br>
 	<br>
 	
@@ -320,7 +361,9 @@ div.h4 {
 		</tr>
 		<?php } ?>
     </table>
+    <?php } ?>
     
+    <?php if($config['config']['reference']['active'] == 1){ ?>
 	<br>
 	<br>
 	
@@ -351,5 +394,6 @@ div.h4 {
 		<?php $num_r++ ?>
 		<?php } ?>
     </table>
+    <?php } ?>
 	
 </page>
