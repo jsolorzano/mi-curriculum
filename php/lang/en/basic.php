@@ -8,9 +8,9 @@ $lang['basic']['hire_me'] = "Hire Me";
 
 $lang['basic']['download'] = "Download CV";
 
-$lang['basic']['about_name'] = "Hello! I am José Solorzano. Web Developer Full Stack.";
+$lang['basic']['about_name'] = "Hello! I am José Solorzano. LAMPP Stack Web Developer.";
 
-$lang['basic']['about_details'] = "Web Developer with main experience in LAMP technologies (LAMP Stack Developer). Whenever possible, I prefer the learning of developing software in an artisanal way than the use of bookstores as the first option. A fan to the installation and testing of Linux Distributions.";
+$lang['basic']['about_details'] = "Web developer with main domain of LAMPP technologies (Linux, Apache, MySql and PHP) with experience working in multidisciplinary teams. Main tools and frameworks: Vanilla PHP, CodeIgniter, Jquery, Vanilla JavaScript, Bootstrap, Vanilla CSS, MySQl, PostgreSQL. Version control with github: https://github.com/jsolorzano and gitlab: https://gitlab.com/jsolorzano.";
 
 $lang['basic']['age'] = "AGE";
 
