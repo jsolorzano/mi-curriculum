@@ -14,7 +14,7 @@
             <div class="h4 mt-0 title"><?php echo $lang['titles']['basic_information']; ?></div>
             <div class="row">
               <div class="col-sm-4"><strong class="text-uppercase"><?php echo $lang['basic']['age']; ?>:</strong></div>
-              <div class="col-sm-8">32</div>
+              <div class="col-sm-8">33</div>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase"><?php echo $lang['basic']['email']; ?>:</strong></div>
