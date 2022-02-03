@@ -46,7 +46,7 @@ div.h4 {
 					<table style="width:100%">
 						<tr>
 							<td style="width:30%"><?php echo $lang['basic']['age']; ?>:</td>
-							<td style="width:80%">32</td>
+							<td style="width:80%">33</td>
 						</tr>
 						<tr>
 							<td style="width:30%"><?php echo $lang['basic']['email']; ?>:</td>
