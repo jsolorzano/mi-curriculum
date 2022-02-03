@@ -6,7 +6,7 @@
           <div class="card-body">
             <div class="h4 mt-0 title"><?php echo $lang['titles']['about']; ?></div>
             <p><?php echo $lang['basic']['about_name']; ?></p>
-            <p><?php echo $lang['basic']['about_details']; ?><a href="https://www.linkedin.com/in/jose-solorzano-4307b372/" target="_blank">Learn More</a></p>
+            <p><?php echo $lang['basic']['about_details']; ?><a href="https://www.linkedin.com/in/jose-solorzano-4307b372/" target="_blank">Saber más</a></p>
           </div>
         </div>
         <div class="col-lg-6 col-md-12">
@@ -14,7 +14,7 @@
             <div class="h4 mt-0 title"><?php echo $lang['titles']['basic_information']; ?></div>
             <div class="row">
               <div class="col-sm-4"><strong class="text-uppercase"><?php echo $lang['basic']['age']; ?>:</strong></div>
-              <div class="col-sm-8">32</div>
+              <div class="col-sm-8">33</div>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase"><?php echo $lang['basic']['email']; ?>:</strong></div>
